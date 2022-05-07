@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CatalogComponent } from './catalog.component';
+import { CatalogComponent } from './catalog/catalog.component';
 import { RouterModule } from '@angular/router';
+import { CourseService } from './course.service';
 
 @NgModule({
   declarations: [
@@ -13,8 +14,15 @@ import { RouterModule } from '@angular/router';
       {
         path: 'catalog',
         component: CatalogComponent
+      },
+      {
+        path: 'catalog/products/:id',
+        component: CatalogComponent
       }
     ])
+  ],
+  providers: [
+    CourseService
   ]
 })
-export class CatalogModule { }
+export class CourseModule { }

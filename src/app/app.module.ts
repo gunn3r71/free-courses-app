@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CatalogModule } from './catalog/catalog/catalog.module';
+import { CourseModule } from './course/course.module';
+import { CoreModule } from './core/core.module';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -11,7 +14,10 @@ import { CatalogModule } from './catalog/catalog/catalog.module';
   imports: [
     AppRoutingModule,
     BrowserModule,
-    CatalogModule
+    HttpClientModule,
+    FontAwesomeModule,
+    CourseModule,
+    CoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,20 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col" *ngFor="let course of courses">
+      <div class="card courseCard">
+        <img class="card-img-top" [src]="course.photoUrl || 'https://free-courses-app-development.s3.amazonaws.com/project-images/no-image.jpg'" alt="course image" />
+        <div class="card-body"> 
+          <h5 class="card-title">{{course.title}}</h5>
+          <p class="card-text">recommended by {{course.recommendations}} students</p>
+          <a href="{{course.link}}" target="_blank" class="btn btn-primary accessButton">Access</a>
+          <a href="" class="btn btn-danger"><i class="fas fa-heart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center text-secondary" *ngIf="courses.length === 0">
+    <p>Oops, looks like we don't have any courses registered. =(</p>
+  </div>
+</div>

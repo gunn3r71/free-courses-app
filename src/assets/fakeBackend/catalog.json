@@ -1,0 +1,52 @@
+{
+    "courses": [
+        {
+            "id": "045551a5-9b35-4d50-baef-a76355140acb",
+            "title": "Learning C#",
+            "description": "Basic to advanced",
+            "link": "https://www.google.com",
+            "photoUrl": "",
+            "recommendations": 3
+        },
+        {
+            "id": "af233643-d4a2-4aff-9edc-63ee423a0191",
+            "title": "Learning Js",
+            "description": "Basic to advanced",
+            "link": "https://www.google.com",
+            "photoUrl": "",
+            "recommendations": 2
+        },
+        {
+            "id": "edf1e7c2-58a7-4cf5-96b7-d0adfb885974",
+            "title": "Learning C",
+            "description": "Basic to advanced",
+            "link": "https://www.google.com",
+            "photoUrl": "",
+            "recommendations": 100
+        },
+        {
+            "id": "03a72f6c-f433-4df1-b3d2-0b9d5add1f28",
+            "title": "Learning C++",
+            "description": "Basic to advanced",
+            "link": "https://www.google.com",
+            "photoUrl": "",
+            "recommendations": 50
+        },        
+        {
+            "id": "91de71ae-5e7b-458d-b5a1-cbe52cfd9c64",
+            "title": "Learning Python",
+            "description": "Basic to advanced",
+            "link": "https://www.google.com",
+            "photoUrl": "",
+            "recommendations": 500
+        },
+        {
+            "id": "7600e745-f9d0-4631-a711-2d5beb0c8195",
+            "title": "Learning Java",
+            "description": "Basic to advanced",
+            "link": "https://www.google.com",
+            "photoUrl": "",
+            "recommendations": 10
+        }
+    ]
+}
